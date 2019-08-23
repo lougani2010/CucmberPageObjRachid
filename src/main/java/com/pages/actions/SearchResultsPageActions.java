@@ -17,6 +17,7 @@ public class SearchResultsPageActions {
 		PageFactory.initElements(SeleniumDriver.getDriver(), searchResultsPageLocators);
 	}
 	
+	//checkResultsText
 	public void checkResultsText() {
 		
 		Assert.assertTrue("Text is not displayed", searchResultsPageLocators.filter_text.isDisplayed());

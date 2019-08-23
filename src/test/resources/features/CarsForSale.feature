@@ -26,4 +26,4 @@ Scenario: Validate Search By Make is working as expected
 	And the user enters the zipCode as "22044"
 	And the user clicks on Search button
 	Then the list of searched car is displyed
-	And the page results title should be "New Honda Civic - in 22044 - on Cars.com"
+	And the page results title should be "New Honda Civic - in 22041 - on Cars.com"
