@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class SearchResultsPageLocators {
-	
+	//Find results text
 	@FindBy(how=How.CSS,using=".filter-text")
 	public WebElement filter_text;
 

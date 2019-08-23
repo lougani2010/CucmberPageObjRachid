@@ -22,6 +22,7 @@ public class SeleniumDriver {
 		WebDriverManager.chromedriver().setup();
 		//System.setProperty("Webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\chromedriver.exe");
 		driver=new ChromeDriver();
+		//maximize the window
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
