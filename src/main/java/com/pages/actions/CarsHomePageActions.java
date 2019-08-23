@@ -17,6 +17,8 @@ public class CarsHomePageActions {
 		PageFactory.initElements(SeleniumDriver.getDriver(), carsHomePageLocators);
 
 	}
+	
+	//clciking on cars for sale tab
 
 	public void clickCarsForSaleTab() {
 		
